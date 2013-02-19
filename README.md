@@ -1,2 +1,6 @@
 CakePHP-JsEditable
 ==================
+
+Requirement:
+
+JQuery
