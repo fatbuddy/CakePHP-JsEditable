@@ -54,8 +54,8 @@ class JsEditableHelper extends AppHelper {
 	 * @param $name - name of the variable
 	 * 
 	 */
-	public function init() {
-		return $this->output($this->view->element('script', compact('settings'), array('plugin' => 'JsEditable')));
+	public function init($params = array()) {
+		return $this->output($this->view->element('script', compact('settings','params'), array('plugin' => 'JsEditable')));
 	}
 
 }
